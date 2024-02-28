@@ -4014,20 +4014,20 @@ footer .social-icons a:hover{
 /*    Top Bar Right Elements
 /*------------------------------------------*/
 .top-bar-right {
-    padding: 0.7rem 0;
+    padding: 0.5rem 0;
     background: #eeeeee;
     min-height: 60px;
-    font-size: 0.875rem;
+    font-size: 0.7rem;
     font-weight: normal;
     color: #2f2f2f;
 }
 .top-bar-right .contact-info svg {
-    margin-right: 0.3rem;
+    margin-right: 0.1rem;
     margin-top: -2px;
     color: var(--secondary-color);
 }
 .top-bar-right .contact-info div{
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
     white-space: nowrap;
 }
 .request-btn a{
