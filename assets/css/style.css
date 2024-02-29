@@ -548,7 +548,7 @@ h2.h2-xl { font-size: 1.5rem; }     /* 24px */
     background-size: cover;
 }
 .callout_bg{
-	background-image: url(../images/callout_bg.jpg);
+	background-image: url(../images/slider/slider2.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -4167,7 +4167,7 @@ footer .social-icons a:hover{
     width: 100%;
 }
 .breadcrumbs-page {
-    background-image: url(../images/breadcrumbs_bg.jpg);
+    background-image: url(../images/counter_bg.jpg);
     background-repeat: no-repeat;
     padding: 6rem 0;
     background-position: center center !important;
@@ -4195,11 +4195,20 @@ footer .social-icons a:hover{
     align-items: center;
     font-size: 1rem;
 }
-.breadcrumbs-page .breadcrumb a {
+
+.breadcrumbs-page .breadcrumb a{
     color: #FFF;
     background: var(--secondary-color);
-    margin-right: 7px;
     padding: 0.4rem 1.2rem 0.4rem 0;
+    /* border-radius: 0 0.3rem 1.2rem 0; */
+    position: relative;
+}
+
+.breadcrumbs-page .breadcrumb .active {
+    color: #FFF;
+    background: var(--primary-color);
+    margin-right: 7px;
+    padding: 0.4rem 1.2rem 0.4rem 1rem;
     border-radius: 0 0.3rem 1.2rem 0;
     position: relative;
 }
@@ -5786,7 +5795,7 @@ label.error {
 
 /* About Us Page */
 .about-us-gap{
-    margin: 5rem 0px 1rem;
+    margin: 0rem 0px 1rem;
 }
 .about-us-wrap{
     background: var(--accent-color);
