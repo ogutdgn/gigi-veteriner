@@ -1,24 +1,44 @@
 import { blogs_data } from "./blogs_data.js"
 
-function displayUseFulBlogs() {
-    const useful_blogs = document.querySelector(".popular-blogs")
-    console.log(useful_blogs);
+function displayUseFulBlogsHome() {
+    const useful_blogs = document.querySelector(".useful-blogs")
 
     for (let index = 1; index < 4; index++) {
-        const each_popular_blog = document.createElement("li")
+        const each_useful_blog = document.createElement("li")
         const current_useful_blog = blogs_data.find(blog => blog.id === index);
+        
+        each_useful_blog.innerHTML = `
+            <li><a href="blog-single.html?id=${current_useful_blog.id}">${current_useful_blog.title} </a></li>
+        `
+        useful_blogs.appendChild(each_useful_blog)
+    }
+}
+
+function displayUseFulBlogsServices() {
+    const popular_blogs = document.querySelector(".popular-blogs")
+    console.log(popular_blogs);
+
+    for (let index = 1; index < 6; index++) {
+        const each_popular_blog = document.createElement("li")
+        const current_popular_blog = blogs_data.find(blog => blog.id === index);
 
         
         each_popular_blog.innerHTML = `
-            <li><a href="blog-single.html?id=${current_useful_blog.id}">${current_useful_blog.title} </a></li>
+            <li><a href="blog-single.html?id=${current_popular_blog.id}">${current_popular_blog.title} </a></li>
         `
-        useful_blogs.appendChild(each_popular_blog)
+        popular_blogs.appendChild(each_popular_blog)
     }
-
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    displayUseFulBlogs();
+    const pathname = window.location.pathname
+
+    if(pathname === "/index.html"){ 
+        displayUseFulBlogsHome();
+    }else if(pathname === "/our-services.html"){
+        displayUseFulBlogsServices();
+    }
+
 });
 
 /* ==============================================
