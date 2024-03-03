@@ -1,3 +1,25 @@
+import { blogs_data } from "./blogs_data.js"
+
+function displayUseFulBlogs() {
+    const useful_blogs = document.querySelector(".popular-blogs")
+    console.log(useful_blogs);
+
+    for (let index = 1; index < 4; index++) {
+        const each_popular_blog = document.createElement("li")
+        const current_useful_blog = blogs_data.find(blog => blog.id === index);
+
+        
+        each_popular_blog.innerHTML = `
+            <li><a href="blog-single.html?id=${current_useful_blog.id}">${current_useful_blog.title} </a></li>
+        `
+        useful_blogs.appendChild(each_popular_blog)
+    }
+
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    displayUseFulBlogs();
+});
 
 /* ==============================================
 Custom Javascript
