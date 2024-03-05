@@ -11,9 +11,14 @@ function displaySingleBlog(blogId) {
     const blog = blogs_data.find(blog => blog.id === parseInt(blogId)); // ID'ye göre blogu bul
 
     if (blog) {
+        const header_title = document.querySelector(".header-container")
+        const current_title = document.createElement("h1")
         const popular_blogs = document.querySelector(".list-unstyled")
         const blogs_div = document.querySelector(".blogs-page-info-div")
         const each_blog = document.createElement("div")
+        current_title.innerHTML = `
+            <h1>${blog.title}</h1>
+        `
         each_blog.innerHTML = `
             <div>
                 <div class="blog-wrap-modern single-entry">
@@ -57,6 +62,7 @@ function displaySingleBlog(blogId) {
             </div>
         `;
         blogs_div.appendChild(each_blog);
+        header_title.appendChild(current_title);
 
         for (let index = 1; index < 6; index++) {
           const popular_each_blog = document.createElement("li")

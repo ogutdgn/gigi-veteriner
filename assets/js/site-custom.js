@@ -8,7 +8,7 @@ function displayUseFulBlogsHome() {
         const current_useful_blog = blogs_data.find(blog => blog.id === index);
         
         each_useful_blog.innerHTML = `
-            <li><a href="blog-single.html?id=${current_useful_blog.id}">${current_useful_blog.title} </a></li>
+            <li><a href="blog-single.html?id=${current_useful_blog.id}" style="color: #f15e42">${current_useful_blog.title} </a></li>
         `
         useful_blogs.appendChild(each_useful_blog)
     }
@@ -24,7 +24,7 @@ function displayUseFulBlogsServices() {
 
         
         each_popular_blog.innerHTML = `
-            <li><a href="blog-single.html?id=${current_popular_blog.id}">${current_popular_blog.title} </a></li>
+            <li><a href="blog-single.html?id=${current_popular_blog.id}" style="color: #f15e42">${current_popular_blog.title} </a></li>
         `
         popular_blogs.appendChild(each_popular_blog)
     }
@@ -224,6 +224,8 @@ Custom Javascript
                 var portfolioIsotope = $('.isotope-gallery').isotope({
                     itemSelector: '.gallery-item'
                 });
+
+                console.log("aksnd");
 
                 $('#portfolio-flters li').on('click', function () {
                     $("#portfolio-flters li").removeClass('filter-active');
