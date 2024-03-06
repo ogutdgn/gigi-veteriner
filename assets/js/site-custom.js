@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if(pathname === "/"){ 
         displayUseFulBlogsHome();
-    }else if(pathname === "/our-services.html"){
+    }else if(pathname === "/our-services"){
         displayUseFulBlogsServices();
     }
 
