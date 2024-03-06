@@ -30,10 +30,6 @@ function displaySingleBlog(blogId) {
                           ${blog.title}
                       </h3>
                       <div class="bottom-content">
-                          <div class="thumb-author">
-                              <img src="assets/images/testimonial_thumb_large_1.jpg" alt="">
-                              ${blog.author}
-                          </div>
                           <div class="date">${blog.date}</div>
                       </div>
                   </div>
@@ -41,23 +37,6 @@ function displaySingleBlog(blogId) {
 
                 <div class="entry-text-gap">
                   ${blog.longDescription}
-                </div>
-
-                <div class="author-box">
-                  <div class="media">
-                    <div class="thumb">
-                        <img src="assets/images/testimonial_thumb_large_1.jpg" alt="" class="rounded-circle">
-                    </div>
-                    <div class="service-inner-content media-body pos-rel">
-                        <div class="social-icon-author">
-                            <a href="#"><i class="icofont-twitter"></i></a>
-                            <a href="#"><i class="icofont-facebook"></i></a>
-                            <a href="#"><i class="icofont-instagram"></i></a>
-                        </div>
-                        <h5 class="fw-7 txt-white mb-3">${blog.author} Hakkında</h5>
-                        ${blog.authorDesc}
-                    </div>
-                  </div>
                 </div>
             </div>
         `;

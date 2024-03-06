@@ -35,10 +35,6 @@ function displayBlogs(page = 1, blogsToUse = blogs_data) {
                         <p>${blog.shortDescription}</p>
                     </div>
                     <div class="bottom-content">
-                        <div class="thumb-author">
-                            <img src="assets/images/testimonial_thumb_large_1.jpg" alt="">
-                            ${blog.author}
-                        </div>
                         <div class="date">${blog.date}</div>
                     </div>
                 </div>
