@@ -71,7 +71,7 @@
             name: "Cici"
         },
         {
-            imgSrc: "assets/images/gallery/home/img_gallery6.jpg",
+            imgSrc: "assets/images/gallery/gigi_kedi.jpeg",
             species: "Kedi",
             speciesTag: "cats",
             name: "Cici"
@@ -98,7 +98,7 @@
             name: "Luna"
         },
         {
-            imgSrc: "assets/images/gallery/home/img_gallery6.jpg",
+            imgSrc: "assets/images/gallery/gigi_kedi.jpeg",
             species: "Kedi",
             speciesTag: "cats",
             name: "Cici"
