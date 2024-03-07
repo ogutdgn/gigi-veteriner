@@ -548,7 +548,7 @@ h2.h2-xl { font-size: 1.5rem; }     /* 24px */
     background-size: cover;
 }
 .callout_bg{
-	background-image: url(../images/slider/slider2.jpeg);
+	background-image: url(../images/callout_bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }

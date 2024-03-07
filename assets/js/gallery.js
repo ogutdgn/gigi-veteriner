@@ -41,10 +41,10 @@
             name: "Luna"
         },
         {
-            imgSrc: "assets/images/gallery/gallery_img_8.jpg",
-            species: "Yavru Kedi",
-            speciesTag: "cats",
-            name: "Zeytin"
+            imgSrc: "assets/images/gallery/gallery_img_13.jpg",
+            species: "Köpek",
+            speciesTag: "dogs",
+            name: "Dora"
         },
         {
             imgSrc: "assets/images/gallery/gallery_img_9.jpg",
@@ -53,10 +53,10 @@
             name: "Karamel"
         },
         {
-            imgSrc: "assets/images/gallery/gallery_img_10.jpg",
+            imgSrc: "assets/images/gallery/gigi_köpek_1.jpeg",
             species: "Köpek",
             speciesTag: "dogs",
-            name: "Şila"
+            name: ""
         },
         {
             imgSrc: "assets/images/gallery/gallery_img_11.jpg",
@@ -71,7 +71,7 @@
             name: "Cici"
         },
         {
-            imgSrc: "assets/images/gallery/gigi_kedi.jpeg",
+            imgSrc: "assets/images/gallery/gigi_kedi_1.jpeg",
             species: "Kedi",
             speciesTag: "cats",
             name: "Cici"
@@ -80,10 +80,10 @@
 
     const homePageAnimals = [
         {
-            imgSrc: "assets/images/gallery/gallery_img_4.jpg",
-            species: "Kedi",
-            speciesTag: "kittens",
-            name: "Tekir"
+            imgSrc: "assets/images/gallery/gigi_köpek_1.jpeg",
+            species: "Köpek",
+            speciesTag: "dogs",
+            name: ""
         },
         {
             imgSrc: "assets/images/gallery/gallery_img_5.jpg",
@@ -98,16 +98,16 @@
             name: "Luna"
         },
         {
-            imgSrc: "assets/images/gallery/gigi_kedi.jpeg",
+            imgSrc: "assets/images/gallery/gigi_kedi_1.jpeg",
             species: "Kedi",
             speciesTag: "cats",
             name: "Cici"
         },
         {
-            imgSrc: "assets/images/gallery/gallery_img_8.jpg",
-            species: "Yavru Kedi",
-            speciesTag: "cats",
-            name: "Zeytin"
+            imgSrc: "assets/images/gallery/gallery_img_13.jpg",
+            species: "Köpek",
+            speciesTag: "dogs",
+            name: "Dora"
         },
         {
             imgSrc: "assets/images/gallery/gallery_img_9.jpg",
@@ -159,34 +159,34 @@
         <div class="col-md-4 gallery-item mb-0">
             <div class="captured-gallery-item mb-4">                            
                 <div class="gallery-content">
-                    <span href="assets/images/gallery/home/img_gallery1.jpg" title="${animals_gonna_show[0].name}"><i class="icofont-plus"></i></span>
+                    <span href="${animals_gonna_show[0].imgSrc}" title="${animals_gonna_show[0].name}"><i class="icofont-plus"></i></span>
                     <h3>${animals_gonna_show[0].name}</h3>
                     <h5>${animals_gonna_show[0].species}</h5>
                 </div>
-                <img src="assets/images/gallery/home/img_gallery1.jpg" class="rounded" alt="">
+                <img src="${animals_gonna_show[0].imgSrc}">
             </div>
             <div class="captured-gallery-item mb-4">                            
                 <div class="gallery-content">
-                    <span href="assets/images/gallery/home/img_gallery5.jpg" title="${animals_gonna_show[1].name}"><i class="icofont-plus"></i></span>
+                    <span href="${animals_gonna_show[1].imgSrc}" title="${animals_gonna_show[1].name}"><i class="icofont-plus"></i></span>
                     <h3>${animals_gonna_show[1].name}</h3>
                     <h5>${animals_gonna_show[1].species}</h5>
                 </div>
-                <img src="assets/images/gallery/home/img_gallery5.jpg" class="rounded" alt="">
+                <img src="${animals_gonna_show[1].imgSrc}" class="rounded" alt="">
             </div>
         </div>
 
         <div class="col-md-4 gallery-item mb-0">
             <div class="captured-gallery-item mb-4">                            
                 <div class="gallery-content">
-                    <span href="assets/images/gallery/home/img_gallery2.jpg" title="${animals_gonna_show[2].name}""><i class="icofont-plus"></i></span>
+                    <span href="${animals_gonna_show[2].imgSrc}" title="${animals_gonna_show[2].name}""><i class="icofont-plus"></i></span>
                     <h3>${animals_gonna_show[2].name}</h3>
                     <h5>${animals_gonna_show[2].species}</h5>
                 </div>
-                <img src="assets/images/gallery/home/img_gallery2.jpg" class="rounded" alt="">
+                <img src="${animals_gonna_show[2].imgSrc}" class="rounded" alt="">
             </div>
             <div class="captured-gallery-item mb-4">                            
                 <div class="gallery-content">
-                    <span href="assets/images/gallery/home/img_gallery6.jpg" title="${animals_gonna_show[3].name}"><i class="icofont-plus"></i></span>
+                    <span href="${animals_gonna_show[3].imgSrc}" title="${animals_gonna_show[3].name}"><i class="icofont-plus"></i></span>
                     <h3>${animals_gonna_show[3].name}</h3>
                     <h5>${animals_gonna_show[3].species}</h5>
                 </div>
@@ -197,19 +197,19 @@
         <div class="col-md-4 gallery-item mb-0">
             <div class="captured-gallery-item mb-4">                            
                 <div class="gallery-content">
-                    <span href="assets/images/gallery/home/img_gallery3.jpg" title="${animals_gonna_show[4].name}"><i class="icofont-plus"></i></span>
+                    <span href="${animals_gonna_show[4].imgSrc}" title="${animals_gonna_show[4].name}"><i class="icofont-plus"></i></span>
                     <h3>${animals_gonna_show[4].name}</h3>
                     <h5>${animals_gonna_show[4].species}</h5>
                 </div>
-                <img src="assets/images/gallery/home/img_gallery3.jpg" class="rounded" alt="">
+                <img src="${animals_gonna_show[4].imgSrc}" class="rounded" alt="">
             </div>
             <div class="captured-gallery-item mb-4">                            
                 <div class="gallery-content">
-                    <span href="assets/images/gallery/home/img_gallery7.jpg" title="${animals_gonna_show[5].name}"><i class="icofont-plus"></i></span>
+                    <span href="${animals_gonna_show[5].imgSrc}" title="${animals_gonna_show[5].name}"><i class="icofont-plus"></i></span>
                     <h3>${animals_gonna_show[5].name}</h3>
                     <h5>${animals_gonna_show[5].species}</h5>
                 </div>
-                <img src="assets/images/gallery/home/img_gallery7.jpg" class="rounded" alt="">
+                <img src="${animals_gonna_show[5].imgSrc}" class="rounded" alt="">
             </div>
         </div>
         </div>
