@@ -23,7 +23,7 @@ function displaySingleBlog(blogId) {
             <div>
                 <div class="blog-wrap-modern single-entry">
                   <div class="img">
-                      <img src="assets/images/blog/blog_modern_large.jpg" alt="">
+                      <img src="assets/images/blog/blog_large_img_1.jpeg" alt="">
                   </div>
                   <div class="content">
                       <h3 class="title">
@@ -49,7 +49,6 @@ function displaySingleBlog(blogId) {
 
           popular_each_blog.innerHTML = `
             <li>
-                <img src="assets/images/blog/post_thumb_1.jpg" alt="">
                 <div>
                     <a href="blog-single.html?id=${blog_index.id}" class="title">${blog_index.title}</a>
                     <small>${blog_index.date}</small>

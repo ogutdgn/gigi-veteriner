@@ -25,7 +25,7 @@ function displayBlogs(page = 1, blogsToUse = blogs_data) {
         colDiv.innerHTML = `
             <div class="blog-wrap-modern">
                 <div class="img">
-                    <a href="blog-single.html?id=${blog.id}"><img src="assets/images/blog/blog_modern_4.jpg" alt=""></a>
+                    <a href="blog-single.html?id=${blog.id}"><img src="assets/images/blog/blog_img.jpg" alt=""></a>
                 </div>
                 <div class="content">
                     <h3 class="title">
