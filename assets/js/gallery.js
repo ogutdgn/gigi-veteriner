@@ -71,10 +71,10 @@
             name: "Cici"
         },
         {
-            imgSrc: "assets/images/gallery/gigi_kedi_1.jpeg",
+            imgSrc: "assets/images/gallery/pekmez_gigi_kedi.jpeg",
             species: "Kedi",
             speciesTag: "cats",
-            name: "Cici"
+            name: "Pekmez"
         }
     ];
 
